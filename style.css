@@ -150,7 +150,7 @@ textarea {
   display: inline-block;
   font-weight: 700;
   border-radius: 5px;
-  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 5px 15px 0 rgb(224,224,224);
   transition: transform .3s; }
   .btn:hover {
     transform: translateY(-3px); }
@@ -205,7 +205,7 @@ textarea {
     width: 20px;
     position: absolute;
     top: 50%;
-    border: 2px solid #eee;
+    /*border: 2px solid #eee;*/
     border-left: 2px solid #eee;
     transform: translateY(-50%); }
     @media only screen and (max-width: 56.25em) {
@@ -342,7 +342,7 @@ textarea {
   background-size: cover;
   background-position: center; }
   .contact__form-container {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgb(224,224,224);
     background: white;
     padding: 4rem;
     margin-top: 6rem;
