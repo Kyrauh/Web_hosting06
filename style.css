@@ -67,7 +67,9 @@ textarea {
   font-size: 6rem;
   text-transform: uppercase;
   letter-spacing: 3px;
-  text-align: center; font-family:Serif;} 
+  text-align: center; 
+  font-family: Lucina;
+} 
   @media only screen and (max-width: 37.5em) {
     .heading-primary {
       font-size: 4.5rem; } }
@@ -143,8 +145,8 @@ textarea {
   width: 92%; }
 
 .btn {
-  background: #fff;
-  color: #333;
+  background:#fff;
+  color: #000;
   text-transform: uppercase;
   letter-spacing: 2px;
   display: inline-block;
@@ -167,7 +169,7 @@ textarea {
     color: royalblue;
     background: #fff;
     border: 2px solid #0062b9;
-    box-shadow: none;
+    box-shadow:0 5px 15px 0 rgba(160,160,160) ;
     padding: calc(1.5rem - 2px) calc(5rem - 2px); }
 
 .sec-pad {
@@ -205,7 +207,7 @@ textarea {
     width: 20px;
     position: absolute;
     top: 50%;
-    /*border: 2px solid #eee;*/
+/*    border: 2px solid #18122B;*/
     border-left: 2px solid #eee;
     transform: translateY(-50%); }
     @media only screen and (max-width: 56.25em) {
@@ -225,7 +227,7 @@ textarea {
     width: 100%;
     display: block;
     padding: 1.2rem;
-    border-bottom: 2px solid #eee;
+/*    border-bottom: 2px solid #eee;*/
     transition: background .3s; }
     .home-hero__social-icon-link:hover {
       background: rgba(255, 255, 255, 0.1); }
@@ -342,7 +344,7 @@ textarea {
   background-size: cover;
   background-position: center; }
   .contact__form-container {
-    box-shadow: 0 0 10px rgb(224,224,224);
+    box-shadow: 0 5px 15px 0 rgba(224,224,224);
     background: white;
     padding: 4rem;
     margin-top: 6rem;
@@ -513,8 +515,8 @@ textarea {
   width: 100%;
   z-index: 1000;
   background: #000;
-  background: #fff;
-  box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1); }
+  background: linear-gradient(to right,#18122B, #144272, #205295, #393053);
+  box-shadow: 0 10px 100px rgb(0,0,51); }
   .header__content {
     display: flex;
     align-items: center;
@@ -527,10 +529,10 @@ textarea {
     display: flex;
     align-items: center;
     cursor: pointer;
-    color: #333;
+    color: #fff;
     transition: color .3s; }
     .header__logo-container:hover {
-      color: #0062b9; }
+      color: dimgrey; }
   .header__logo-img-cont {
     width: 5rem;
     height: 5rem;
@@ -563,7 +565,7 @@ textarea {
     padding: 2.2rem 3rem;
     display: inline-block;
     font-size: 1.6rem;
-    color: #333;
+    color: #fff;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 700;
@@ -593,9 +595,9 @@ textarea {
     visibility: hidden;
     opacity: 0;
     transition: all .3s;
-    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
-    -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1); }
+    box-shadow: 0px 5px 5px 0px rgb(224,224,224);
+    -webkit-box-shadow: 0px 5px 5px 0px rgb(224,224,224);
+    -moz-box-shadow: 0px 5px 5px 0px rgb(224,224,224); }
     .header__sm-menu--active {
       visibility: hidden;
       opacity: 0; }
@@ -639,6 +641,10 @@ textarea {
 
 .rong{
   color: royalblue;
+}
+#Light {
+  width: 520px;
+  height:520px;
 }
 
 .main-footer {
