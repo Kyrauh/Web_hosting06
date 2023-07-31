@@ -325,6 +325,7 @@ textarea {
     .projects__row-content-title {
       font-weight: 700;
       font-size: 2.8rem;
+      font-color: blueviolet 
       margin-bottom: 2rem; }
       @media only screen and (max-width: 37.5em) {
         .projects__row-content-title {
